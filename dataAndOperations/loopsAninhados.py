@@ -9,3 +9,8 @@ restauranete = ["Japones",  "Americano", "Holandes", "Frances"]
 for p in pessoas:
     for restaurante in  restauranete:
         print(p + " come um " + restaurante)
+
+
+for pessoa in pessoas:
+    for pessoa2 in pessoas:
+        print(pessoa + "  conhece " + pessoa2)
