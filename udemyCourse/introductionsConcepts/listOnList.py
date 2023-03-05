@@ -15,3 +15,4 @@ print(salas[2][3][3])
 
 for sala in salas:
     print(sala)
+
