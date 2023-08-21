@@ -7,3 +7,12 @@
 #o
 #N
 #Uma string do python funciona como uma lista!
+
+
+def vertical(texto):
+    for caractere in texto:
+        print(caractere)
+
+
+lista_str  = input("Insira qualquer palavra")
+vertical(lista_str)
