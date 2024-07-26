@@ -5,7 +5,7 @@ Refatorar: Editar Codigo
 
 def valorpadrao(x, z=None):
     if z is not None:
-        print("Eita")
+        print("Chocado!")
     else:
         print(f'{x + x}')
 
