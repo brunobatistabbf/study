@@ -1,0 +1,4 @@
+"""
+Funções de primeira classe
+"""
+
