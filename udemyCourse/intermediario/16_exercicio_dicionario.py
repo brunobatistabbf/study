@@ -18,3 +18,19 @@ perguntas = [
         'Resposta': '5',
     },
 ]
+
+for pergunta in perguntas:
+    print(pergunta['Pergunta'])
+    print("Opções:")
+
+    for i, opcao in enumerate(pergunta['Opções']):
+        print(f"{i + 1}. {opcao}")
+
+    resposta = input("Escolha a resposta correta:")
+
+    if pergunta["Opções"][int(resposta) - 1] == pergunta['Resposta']:
+        print("Resposta correta!")
+    else:
+        print("Resposta errada!")
+
+    print()
